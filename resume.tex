@@ -1,0 +1,134 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Drew} \headerlastnamestyle{J Mills} \\
+	\vspace{2mm}
+	{\faEnvelope\ djmills@ucsd.edu} | {\faMobile\ +1 (858) 568-2968} | {\faGithub\ pcsciencegeek} | {\faLink\ www.DrewJMills.com}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{B.S. in Cognitive Computer Science with Spec. in Machine Learning}
+	{University of California, San Diego}
+	{}
+	{June 2019}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Online Development Intern}
+	{AMC Networks International}
+	{London, UK}
+	{June 2016 – July 2016}
+	{\begin{cvitems}
+		\item {Updated intranet to follow new guide lines}
+		\item {Integrated intranet to WordPress}
+		\item {Modified and updated CSS on business unit websites}
+		\end{cvitems}}
+	\cventry
+	{Resident Assistant}
+	{UC San Diego (HDH)}
+	{La Jolla}
+	{July 2016 – Present}
+	{\begin{cvitems}
+		\item {Developed a positive living and learning environment designed to link community, faculty, and residents}
+		\item {Promoted the interaction and construction of social networks}
+		\item {Managed administrative duties including budgeting}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming \& More:  & {\skill{ Java, C, HTML, CSS, JavaScript, LaTeX, MySQL, Git, Unix Shell, Ubuntu}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Via AWAKENS, ranked individuals phenotypes By their genes}
+	{GenoMatch}
+	{HTML, CSS, Javascript}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Designed a website for a Club Imported an HTML5Up! template for the core design and interoperability between desktop and mobile environments. Modified Bootstrap 4’s modal appearance to fit the specific aesthetic.}
+	{Anthropology webpage}
+	{HTML, CSS, PHP, Javascript}
+	{}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+\cvsection{Honors \& Awards}
+\begin{cvhonors}
+	\cvhonor
+	{SDHacks 2017}
+	{}
+	{}
+	{}
+\end{cvhonors}
+\ 
+\end{document}
